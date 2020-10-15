@@ -1,5 +1,5 @@
 {
-  "name": "maatwebsite/excel",
+  "name": "domenic/excel",
   "description": "Supercharged Excel exports in Laravel",
   "license": "MIT",
   "keywords": [
@@ -42,10 +42,10 @@
   },
   "autoload": {
     "classmap": [
-      "src/Maatwebsite/Excel"
+      "src/Domenic/Excel"
     ],
     "psr-0": {
-      "Maatwebsite\\Excel\\": "src/"
+      "Domenic\\Excel\\": "src/"
     }
   },
   "autoload-dev": {
@@ -56,10 +56,10 @@
   "extra": {
         "laravel": {
             "providers": [
-                "Maatwebsite\\Excel\\ExcelServiceProvider"
+                "Domenic\\Excel\\ExcelServiceProvider"
             ],
             "aliases": {
-                "Excel": "Maatwebsite\\Excel\\Facades\\Excel"
+                "Excel": "Domenic\\Excel\\Facades\\Excel"
             }
         }
     }
